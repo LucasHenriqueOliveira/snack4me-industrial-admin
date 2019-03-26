@@ -13,7 +13,8 @@ const routes: Routes = [
             { path: 'cardapio', loadChildren: './cardapio/cardapio.module#CardapioModule' },
             { path: 'usuarios', loadChildren: './usuarios/usuarios.module#UsuariosModule' },
             { path: 'relatorios', loadChildren: './relatorios/relatorios.module#RelatoriosModule' },
-            { path: 'pesquisa', loadChildren: './pesquisa/pesquisa.module#PesquisaModule' }
+            { path: 'pesquisa', loadChildren: './pesquisa/pesquisa.module#PesquisaModule' },
+            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' }
         ]
     }
 ];
