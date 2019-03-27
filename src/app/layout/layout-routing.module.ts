@@ -14,7 +14,8 @@ const routes: Routes = [
             { path: 'usuarios', loadChildren: './usuarios/usuarios.module#UsuariosModule' },
             { path: 'relatorios', loadChildren: './relatorios/relatorios.module#RelatoriosModule' },
             { path: 'pesquisa', loadChildren: './pesquisa/pesquisa.module#PesquisaModule' },
-            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' }
+            { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
+            { path: 'produto', loadChildren: './produto/produto.module#ProdutoModule' }
         ]
     }
 ];
