@@ -1,3 +1,48 @@
-<p>
-  restaurante works!
-</p>
+<app-page-header [heading]="'Restaurante'" [icon]="'fa-home'"></app-page-header>
+<form role="form">
+	<div class="row">
+		<div class="col-lg-12">
+			<fieldset class="form-group">
+				<label>Nome</label>
+				<input type="text" class="form-control" disabled="">
+			</fieldset>
+			<fieldset class="form-group">
+				<label>Logradouro</label>
+				<input type="text" class="form-control" disabled="">
+			</fieldset>
+		</div>
+		<div class="col-lg-6">
+			<fieldset class="form-group">
+				<label>Número</label>
+				<input type="text" class="form-control" disabled="">
+			</fieldset>
+			<fieldset class="form-group">
+				<label>Bairro</label>
+				<input type="text" class="form-control" disabled="">
+			</fieldset>
+			<fieldset class="form-group">
+				<label>Latitude</label>
+				<input type="text" class="form-control">
+			</fieldset>
+		</div>
+		<div class="col-lg-6">
+			<fieldset class="form-group">
+				<label>Complemento</label>
+				<input type="text" class="form-control" disabled="">
+			</fieldset>
+			<fieldset class="form-group">
+				<label>Cidade / Estado</label>
+				<input type="text" class="form-control" disabled="">
+			</fieldset>
+			<fieldset class="form-group">
+				<label>Longitude</label>
+				<input type="text" class="form-control">
+			</fieldset>
+		</div>
+		<div class="col-lg-12">
+			<fieldset class="form-group text-center">
+				<button type="submit" class="btn btn-primary">Alterar</button>
+			</fieldset>
+		</div>
+	</div>
+</form>
